@@ -1,1 +1,2 @@
 1-every context is provider bcz it provide value,so userContext is also a provider
+UserContext = React.createContext
