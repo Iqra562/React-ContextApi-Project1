@@ -1,15 +1,14 @@
 import './App.css'
 import Login from './components/Login'
+import UserContextProvider from './context/UserContextProvider'
 
 function App() {
-for(let i =0;i<5; i++){
-setTimeout(function(){console.log(i)},i*100)
-}
-  return (
-    
- <Login/>
 
-    
+  return (
+    <UserContextProvider>
+
+      <Login/>
+      </UserContextProvider>
   )
 }
 
