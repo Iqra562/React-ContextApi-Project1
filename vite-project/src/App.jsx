@@ -5,10 +5,10 @@ import UserContextProvider from './context/UserContextProvider'
 function App() {
 
   return (
-    <UserContextProvider>
+   // <UserContextProvider>
 
+     // </UserContextProvider>
       <Login/>
-      </UserContextProvider>
   )
 }
 
