@@ -12,6 +12,14 @@ function App() {
       <Profile/>
       </UserContextProvider>
   )
+  // const [user,setUser]   = useState(null);
+  // return (
+  //   <UserContext.Provider value={{user,setUser}}> 
+
+  //     <Login/>
+  //     <Profile/>
+  //     </UserContext.Provider>
+  // )
 }
 
 export default App
